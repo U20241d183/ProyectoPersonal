@@ -1,0 +1,187 @@
+.Top-header {
+  position: fixed;
+  background-color: #909090;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 75rem;
+}
+
+.menu-horizontal li {
+  display: block;
+  padding: 0.938rem 1.25rem;
+  color: black;
+  text-decoration: none;
+}
+
+.menu-horizontal li:hover {
+  color: red;
+}
+
+.menu-horizontal a {
+  text-decoration: none;
+}
+
+.submenu-prodcuto {
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 12.5rem;
+  background-color: #ece3e3;
+}
+
+.menu-horizontal li:hover .submenu-prodcuto {
+  display: block;
+}
+
+.submenu-OFERTAS {
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 12.5rem;
+  background-color: pink;
+}
+.menu-horizontal li:hover .submenu-OFERTAS {
+  display: block;
+}
+
+.submenu-Ayudanos {
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 12.5rem;
+  background-color: orange;
+}
+.menu-horizontal li:hover .submenu-Ayudanos {
+  display: block;
+}
+
+.submenu-quienes-somos {
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 12.5rem;
+  background-color: green;
+}
+.menu-horizontal li:hover .submenu-quienes-somos {
+  display: block;
+}
+
+.seccion-productos {
+  padding: 6.25rem 1.25rem;
+  background-color: whitesmoke;
+}
+
+.cont-gen-prod {
+  display: flex;
+  justify-content: space-between;
+  align-items: 75rem;
+  margin: 0 auto;
+  gap: 0.625rem;
+}
+
+.cont-prod-texto {
+  flex: 1;
+}
+
+.cont-prod-texto h2 {
+  color: darkgreen;
+  margin-bottom: 0.938rem;
+}
+.cont-prod-texto p {
+  color: darkblue;
+  line-height: 2;
+}
+
+.cont-prod-imagen {
+  flex: 1;
+  text-align: center;
+}
+.cont-prod-imagen img {
+  width: 50%;
+  height: 31.25rem;
+  border-radius: 31.25rem;
+}
+
+.seccion-AYUDANOS {
+  padding: 6.25rem 1.25rem;
+  background-color: whitesmoke;
+}
+
+.cont-AYUDANOS-texto {
+  flex: 1;
+}
+
+.cont-ayudanos-texto h2 {
+  color: blue;
+  margin-bottom: 0.938rem;
+}
+.cont-ayudanos-texto p {
+  color: black;
+  line-height: ;
+}
+.seccion-formulario {
+  background-color: beige;
+}
+
+.div-cont-formulario {
+  background-color: azure;
+  padding: 1.875rem;
+  border: 0.125rem solid brown;
+  border-radius: 0.625rem;
+  width: 100%;
+  max-width: 31.25rem;
+}
+.campo {
+  border: 1px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 1.25rem;
+  background-color: greenyellow;
+}
+
+.FORMULARIO label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: darkgoldenrod;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 0.625rem;
+  border: 0.063rem solid darkgreen;
+  border-radius: 1.25rem;
+}
+
+.lista-checkbox .lidta-radio {
+  list-style: 0.625rem;
+  margin: 0;
+  border: 0.063rem;
+  background-color: yellow;
+  border-radius: 0.563rem;
+}
+
+.lista-checbox,
+.lista-radio li {
+  margin-bottom: 0.5rem;
+}
+
+buttom {
+  background-color: #fc0176;
+  color: #c501e2;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  cursor: pointer;
+}

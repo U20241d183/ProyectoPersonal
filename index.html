@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PROYECTO PERSONAL 4161</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!--lOGOS Y MENUS-->
+    <nav class="Top-header">
+      <a href="" clas="logo">
+        <img height="50" width="40" src="imagenes/logo.png" alt="" />
+      </a>
+      <ol class="menu-horizontal">
+        <li>
+          <a href="">
+            Productos
+            <ul class="submenu-prodcuto">
+              <li><a href="">De marca</a></li>
+              <li><a href="">Genericos</a></li>
+              <li><a href="">Manufacturados</a></li>
+              <li><a href="">ecofriendly</a></li>
+              <li><a href="">lowprice</a></li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            Ofertas
+            <ul class="submenu-OFERTAS">
+              <li><a href="">ofertas finales</a></li>
+              <li><a href="">productos especiales</a></li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            Ayudanos
+            <ul class="submenu-Ayudanos">
+              <li><a href="">¿Quieres donar/vender materiales?</a></li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            Quienes Somos
+            <ul class="submenu-quienes-somos">
+              <li><a href="">contactos</a></li>
+              <li><a href="">sobre nosotros</a></li>
+              <li><a href="">Correos Electronicos</a></li>
+              <li><a href="">Numeros telefónicos</a></li>
+              <li><a href="">¿Quieres vender con nosotros?</a></li>
+            </ul>
+          </a>
+        </li>
+      </ol>
+    </nav>
+    <!--SECCION PRODUCTOS-->
+    <section class="seccion-productos">
+      <div class="cont-gen-prod">
+        <div class="cont-prod-texto">
+          <h2>sesion productos</h2>
+          <p>
+            En esta sesion usted encontrara productos de la mejos calidad que se
+            pueda imaginar. Prodcutos de verano e invierno. Hechos de diferentes
+            tipos de materiales, como lana, nilon o incluso de material
+            reciclado, con diferentes funcionalidades y objetivos a su
+            disposicion y gusto, encontrará algo para usted
+          </p>
+        </div>
+        <div class="cont-prod-imagen">
+          <img src="imagenes/R.png" />
+        </div>
+      </div>
+    </section>
+    <!--SECCION AYUDANOS-->>
+    <section class="seccion-AYUDANOS">
+      <div class="cont-gen-AYUDANOS">
+        <div class="cont-AYUDANOS-texto">
+          <h2>sesion AYUDANOS</h2>
+          <p>
+            Usted, como usuario, nos puede ayudar de diferentes maneras para
+            ayudarnos a seguir contribuyendo con ls ventas de novedades y
+            sostenibles. La primera forma es a travez del envio de materiales
+            reciclables o ropa en desuso, cuyo proposito será en convertise en
+            material apto para la realizacion de nuevas prendas. Otra forma de
+            apoyo es a traves de el encargo personalizado de prendas diseñadas a
+            traves de un servicio especial de estampados. Con estas acciones,
+            nos ayudará de gran manera.
+          </p>
+        </div>
+        <div class="cont-AYUDA-imagen">
+          <img rcs="imagenes/large_RECICLAJE-DE-ROPA (1).jpg" />
+        </div>
+        <div class="cont-AYUDA-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/I2xcNZPNKrM?si=9vTQsJLg3fVJVFEh"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="seccion-formulario">
+      <form class="FORMULARIO">
+        <div class="div-cont-formulario">
+          <h2>FORMULARIO DEL REGISTRO</h2>
+          <p>COMPLETE TODOS LOS CAMPOS</p>
+          <div class="campo">
+            <label for="nombre">NOMBRES COMPLETOS</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="ingrese sus apellidos y nombres"
+            />
+          </div>
+          <div class="campo">
+            <label for="nombre">PAIS</label>
+            <select id="nombrepais" name="nombrepais">
+              <option value="PERU">PERÚ</option>
+              <option value="ECUADOR">ECUADOR</option>
+              <option value="ARGENTINA">ARGENTINA</option>
+              <option value="PARAGUAY">PARAGUAY</option>
+              <option value="URUGUAY">URUGUAY</option>
+              <option value="CHILE">CHILE</option>
+              <option value="COLOMBIA">COLOMBIA</option>
+              <option value="VENEZUELA">VENEZUELA</option>
+              <option value="BOLIVIA">BOLIVIA</option>
+              <option value="BRASIL">BRASIL</option>
+              <option value="REPUBLICA-DEMOCRATICA-DEL-CONGO">
+                REPÚBLICA DEMOCRÁTICA DEL CONGO
+              </option>
+            </select>
+          </div>
+          <!--checkbox-->
+          <div class="campo">
+            <label>MATERIAL A DONAR</label>
+              <ul class="lista-material">
+                <li><label><imput type="chekbox" name="material" valeu="plasticos">plasticos</label></li>
+                <li><label><imput type="chekbox" name="material" valeu="tela">tela</label></li>
+                </ul>
+          </div>
+          <div class="campo">
+            <label>SEXO:</label>
+            <li><label><imput type="chekbox" name="sexo" valeu="femenino">femenino</label></li>
+            <li><label><imput type="chekbox" name="sexo" valeu="masculino">masculino</label></li>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="PIE-DE-PAGINA">
+      <footer >
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <a href=""
+          >Política de Privacidad</a
+        >
+        <!-- Dentro de href llama a un documento pdf con la poltica-->
+        <a href="#">Términos y Condiciones</a>
+        <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+        <a href="">Protección de Datos</a>
+      </div>
+
+      <!-- Redes sociales con íconos personalizados -->
+      <div class="footer-social">
+        <h4>Síguenos</h4>
+        <a href="https://www.facebook.com/hmperu/?locale=es_LA" target="blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+            alt="Facebook"
+            class="social-icon"
+        /></a>
+        <a href="https://www.instagram.com/hm/" target="blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+            alt="Instagram"
+            class="social-icon"
+        /></a>
+        <a href="https://pe.linkedin.com/company/h&m/jobs" target="blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+            alt="LinkedIn"
+            class="social-icon"
+        /></a>
+        <a href="https://x.com/hmperu?lang=es" target="blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+            alt="Twitter"
+            class="social-icon"
+        /></a>
+      </div>
+    </div>
+  </footer>
+</section>
+  </body>
+</html>
